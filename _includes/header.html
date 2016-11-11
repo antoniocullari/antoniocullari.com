@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Antonio Cullari :: Massage Therapist</title>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">    
+    
+</head>
+
+<body id="{{ $page_id }}">
+    {% if $PAGE == 'treatments' %}
+        <style type="text/css">
+            .target-panel{display:none;}
+        </style>
+    {% endif %}
+    <div id="{{ $PAGE }}">
+    <div class="main">
+        
+        <!--header -->
+        <div id="header">
+            <div id="menu">
+                <ul id="list">
+                    <li>
+                        <a href="/">Main</a>
+                    </li>
+                    <li>
+                        <a href="about.php">About</a>
+                    </li>
+                    <li>
+                        <a href="treatments.php">Treatments</a>
+                    </li>
+                    <li class="last">
+                        <a href="mailto:antonio@antoniocullari.com" target="_blank">Contact</a>
+                    </li>
+                </ul>
+                <!-- AddThis Button BEGIN -->
+                <div style="float:right;margin:15px 30px 0 0" class="addthis_toolbox addthis_32x32_style addthis_default_style">
+                    <a class="addthis_button_facebook"></a>
+                    <a class="addthis_button_twitter"></a>
+                    <a class="addthis_button_email"></a>
+                    <a class="addthis_button_google"></a>
+                    <a class="addthis_button_compact"></a>
+                </div>
+                <!-- AddThis Button END --> </div>
+        </div>
+        <div class="pad">
+            {% if $SLIDER != NULL && $SLIDER == 1 %}
+            <div class="wrapper">
+                <a href="/">
+                    <img src="images/header_logo.png" id="logo" alt="Antonio Cullari" />
+                </a>
+            </div>
+            <!-- slider begin -->
+            <div id="faded">
+                <div class="rap">
+                    <img src="images/img1.jpg" alt="" width="977" height="373" />
+                    <img src="images/img2.jpg" alt="" width="977" height="373" />
+                    <img src="images/img3.jpg" alt="" width="977" height="373" />
+                    <img src="images/img4.jpg" alt="" width="977" height="373" />
+                    <img src="images/img5.jpg" alt="" width="977" height="373" />
+                </div>
+            </div>
+            <!-- slider end --> 
+            
+            {% else %} 
+                <img id="side_bar_logo" 
+                     src="images/header_logo.png" 
+                     alt="Antonio Cullari Logo" 
+                     onclick="javascript:document.location='/'">
+            {% endif %}
+
+        </div>
+        <!--header end-->
+        <div class="pad">
+            <div id="content">
+                <div class="wrapper">

@@ -1,0 +1,27 @@
+.main { width:1029px; margin:0 auto; background:url(../images/bg2.png) repeat;position:relative;}
+#header {width:100%; overflow:hidden;}
+#content{ padding:26px 11px 22px 13px; background:#fff}
+#footer {}
+#side_bar_logo{
+    position:absolute;
+    top:95px;
+    left:25px;
+    cursor:pointer;
+}
+.wrapper {width:100%; overflow:hidden;}
+
+.left{ float:left;}
+.right{ float:right}
+
+.col1{ width:650px; float:left;}
+.cols{ float:left;}
+.col2{ width:280px; float:left;}
+/* ============================= page1 ===========================*/
+#page1 .box2 .cols{ width:216px;}
+/* ============================= page2 ===========================*/
+/* ============================= page3 ===========================*/
+/* ============================= page4 ===========================*/
+/* ============================= page5 ===========================*/
+/* ============================= page6 ===========================*/
+#page6 .box2 h1{ letter-spacing:-1px;}
+/* ============================= page7 ===========================*/

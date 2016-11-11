@@ -1,0 +1,51 @@
+﻿.time-cell-half
+{
+    border-bottom: solid 1px #222;
+    }
+.time-cell
+{
+    background-color:#fff;
+    height:20px;
+    cursor:pointer;    
+    }
+#day_view_wrap
+{
+    width:300px;
+    height:285px;
+    overflow:auto;
+    border:solid 1px #222;
+    }
+
+#day_view_details .booked
+{
+    background-color:#ccc;
+    cursor:default;
+    }
+#day_view_details .hi-lite
+{
+    background-color:#FFE271;    
+    }
+            
+.time-marker
+{
+    color:#333;
+    font-size:12px;
+    display:block;
+    padding:4px 10px 0px;                
+    }
+#day_view_details .booked .time-marker
+{
+    color:#aaa;
+    }
+
+.time-tick
+{
+    width:12px;
+    border-bottom:solid 1px #222;
+    display:block;
+    }
+    
+#day_view_details .booked .time-tick
+{
+    border-bottom:solid 1px #aaa;
+    } 
