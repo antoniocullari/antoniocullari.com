@@ -1,9 +1,9 @@
-{% 
-    assign $SLIDER=1
-  	assign $TITLE = "Treatments"
-    assign $PAGE = "treatments"
-    include("_includes/header")
-%}   
+---
+---
+{% assign $SLIDER=1 %}
+{% assign $TITLE = "Treatments" %}
+{% assign $PAGE = "treatments" %}
+{% include header.html %}   
 <div class="col2 click-me">
     <img src="images/page1_img2.jpg" class="left marg_right1" alt="" />
     <p class="font2">
@@ -151,4 +151,4 @@
 </div>
 
 
-{% include("_includes/footer") %}  
+{% include footer.html %}  

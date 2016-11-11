@@ -1,9 +1,9 @@
-{% 
-    assign $SLIDER=1
-    assign $TITLE = "About"
-    assign $PAGE_ID="home_form"
-    include("_includes/header")
-%}
+---
+---
+{% assign $SLIDER=1 %}
+{% assign $TITLE = "About" %}
+{% assign $PAGE_ID="home_form" %}
+{% include header.html %}
 <div class="pad1">
     <div class="wrapper pad_bot1">
         <img src="images/antonio_headshot.jpg" alt="" class="left marg_right1" />
@@ -36,4 +36,4 @@
         </p>
     </div>
 </div>
-{% include("_includes/footer") %}
+{% include footer.html %}
